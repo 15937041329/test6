@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.test.demo.user.dao.UserDao">
+    <insert id="addUser" parameterType="com.test.demo.user.entity.User" keyProperty="id" useGeneratedKeys="true">
+        insert into user
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="userName != null">
+                userName,
+            </if>
+            <if test="passWord != null">
+                passWord,
+            </if>
+            <if test="address != null">
+                address,
+            </if>
+            <if test="phone != null">
+                phone,
+            </if>
+            <if test="description != null">
+                description,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="userName != null">
+                #{userName},
+            </if>
+            <if test="passWord != null">
+                #{passWord},
+            </if>
+            <if test="address != null">
+                #{address},
+            </if>
+            <if test="phone != null">
+                #{phone},
+            </if>
+            <if test="description != null">
+                #{description},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateUserById" parameterType="com.test.demo.user.entity.User" >
+        update user
+        <set>
+            <if test="userName != null">
+                userName=#{userName},
+            </if>
+            <if test="passWord != null">
+                passWord=#{passWord},
+            </if>
+            <if test="address != null">
+                address=#{address},
+            </if>
+            <if test="phone != null">
+                phone=#{phone},
+            </if>
+            <if test="description != null">
+                description=#{description},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+</mapper>

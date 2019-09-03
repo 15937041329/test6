@@ -1,0 +1,43 @@
+server:
+  port: 8080
+  tomcat:
+    uri-encoding: utf-8
+spring:
+  #发送邮件配置
+  mail:
+    host: smtp.qq.com
+    username: 1429051020@qq.com
+    password: mkpgdcyjnxdhiajf #开启POP3之后设置的客户端授权码
+    default-encoding: UTF-8
+  #数据源配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: judianruanjian
+    type: com.alibaba.druid.pool.DruidDataSource
+  #上传附件大小
+  servlet:
+    multipart:
+      max-file-size: 1000MB
+      max-request-size: 5000MB
+#附件映射路径
+resources:
+  static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,file:${attachmentsUpload.RootDirectory}
+
+#附件存储根路径
+attachmentsUpload:
+  rootDirectory: D:/wwwroot/jdsm/wwwroot/uploadAttachments/
+  ipAddress: http://www.jdsm.jdvker.com
+
+mybatis:
+  mapper-locations: classpath:mapper/*/*.xml  #注意：一定要对应mapper映射xml文件的所在路径
+  type-aliases-package: com.test.demo  # 注意：对应实体类的路径
+
+#日志配置
+logging:
+  config: classpath:logback-spring.xml
+  level:
+    root: info
+    com.test.demo: debug
+

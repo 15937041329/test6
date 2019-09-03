@@ -1,0 +1,74 @@
+2019-08-07 11:11:04.176 [http-nio-8080-exec-3] ERROR com.test.demo.user.controller.UserController - 根据用户名查询用户异常org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a' at line 1
+### The error may exist in com/test/demo/user/dao/UserDao.java (best guess)
+### The error may involve com.test.demo.user.dao.UserDao.queryUserByUserName-Inline
+### The error occurred while setting parameters
+### SQL: select * from user where userName=?a
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a' at line 1
+2019-08-07 11:12:15.248 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 根据用户名查询用户异常org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a' at line 1
+### The error may exist in com/test/demo/user/dao/UserDao.java (best guess)
+### The error may involve com.test.demo.user.dao.UserDao.queryUserByUserName-Inline
+### The error occurred while setting parameters
+### SQL: select * from user where userName=?a
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a' at line 1
+2019-08-07 11:13:31.794 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 根据用户名查询用户异常org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a' at line 1
+### The error may exist in com/test/demo/user/dao/UserDao.java (best guess)
+### The error may involve com.test.demo.user.dao.UserDao.queryUserByUserName-Inline
+### The error occurred while setting parameters
+### SQL: select * from user where userName=?a
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a' at line 1
+2019-08-07 11:50:38.349 [http-nio-8080-exec-10] ERROR com.test.demo.user.controller.UserController - 新增用户异常org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+### The error may involve com.test.demo.user.dao.UserDao.addUser-Inline
+### The error occurred while setting parameters
+### SQL: insert into user          ( userName,                                           passWord )           values ( ?,                                           ? )
+### Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+; Field 'id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'id' doesn't have a default value
+2019-08-07 11:51:20.848 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 新增用户异常org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+### The error may involve com.test.demo.user.dao.UserDao.addUser-Inline
+### The error occurred while setting parameters
+### SQL: insert into user          ( userName,                                           passWord )           values ( ?,                                           ? )
+### Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+; Field 'id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'id' doesn't have a default value
+2019-08-07 11:51:23.078 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 新增用户异常org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+### The error may involve com.test.demo.user.dao.UserDao.addUser-Inline
+### The error occurred while setting parameters
+### SQL: insert into user          ( userName,                                           passWord )           values ( ?,                                           ? )
+### Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+; Field 'id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'id' doesn't have a default value
+2019-08-07 11:52:50.524 [http-nio-8080-exec-4] ERROR com.test.demo.user.controller.UserController - 新增用户异常com.alibaba.fastjson.JSONException: syntax error, expect {, actual error, pos 0
+2019-08-07 11:52:58.085 [http-nio-8080-exec-5] ERROR com.test.demo.user.controller.UserController - 新增用户异常com.alibaba.fastjson.JSONException: syntax error, expect {, actual error, pos 0
+2019-08-07 11:52:58.913 [http-nio-8080-exec-6] ERROR com.test.demo.user.controller.UserController - 新增用户异常com.alibaba.fastjson.JSONException: syntax error, expect {, actual error, pos 0
+2019-08-07 11:52:59.039 [http-nio-8080-exec-7] ERROR com.test.demo.user.controller.UserController - 新增用户异常com.alibaba.fastjson.JSONException: syntax error, expect {, actual error, pos 0
+2019-08-07 14:14:11.534 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 修改用户异常com.alibaba.fastjson.JSONException: syntax error, pos 35, json : {"id":3,"username":"dd","address":cc}
+2019-08-07 14:14:12.972 [http-nio-8080-exec-5] ERROR com.test.demo.user.controller.UserController - 修改用户异常com.alibaba.fastjson.JSONException: syntax error, pos 35, json : {"id":3,"username":"dd","address":cc}
+2019-08-07 14:14:13.869 [http-nio-8080-exec-4] ERROR com.test.demo.user.controller.UserController - 修改用户异常com.alibaba.fastjson.JSONException: syntax error, pos 35, json : {"id":3,"username":"dd","address":cc}
+2019-08-07 14:14:14.055 [http-nio-8080-exec-6] ERROR com.test.demo.user.controller.UserController - 修改用户异常com.alibaba.fastjson.JSONException: syntax error, pos 35, json : {"id":3,"username":"dd","address":cc}
+2019-08-07 14:35:54.879 [http-nio-8080-exec-4] ERROR com.test.demo.user.controller.UserController - 用户登录异常java.lang.NullPointerException
+2019-08-07 14:36:03.186 [http-nio-8080-exec-6] ERROR com.test.demo.user.controller.UserController - 用户登录异常java.lang.NullPointerException
+2019-08-07 14:36:03.724 [http-nio-8080-exec-8] ERROR com.test.demo.user.controller.UserController - 用户登录异常java.lang.NullPointerException
+2019-08-07 14:36:03.884 [http-nio-8080-exec-7] ERROR com.test.demo.user.controller.UserController - 用户登录异常java.lang.NullPointerException
+2019-08-07 14:36:54.870 [http-nio-8080-exec-5] ERROR com.test.demo.user.controller.UserController - 用户登录异常com.test.demo.publicres.exception.BusinessException: 根据用户名查询用户失败
+2019-08-07 14:39:05.053 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 用户登录异常com.test.demo.publicres.exception.BusinessException: 根据用户名查询用户失败
+2019-08-07 14:39:06.253 [http-nio-8080-exec-6] ERROR com.test.demo.user.controller.UserController - 用户登录异常com.test.demo.publicres.exception.BusinessException: 根据用户名查询用户失败
+2019-08-07 14:39:06.409 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 用户登录异常com.test.demo.publicres.exception.BusinessException: 根据用户名查询用户失败
+2019-08-07 14:39:06.565 [http-nio-8080-exec-5] ERROR com.test.demo.user.controller.UserController - 用户登录异常com.test.demo.publicres.exception.BusinessException: 根据用户名查询用户失败
+2019-08-07 14:39:30.266 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 用户登录异常com.test.demo.publicres.exception.BusinessException: 登录失败
+2019-08-07 14:48:19.965 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 用户登录异常com.test.demo.publicres.exception.BusinessException: 登录失败
+2019-08-07 14:48:30.080 [http-nio-8080-exec-6] ERROR com.test.demo.user.controller.UserController - 用户登录异常com.test.demo.publicres.exception.BusinessException: 登录失败
+2019-08-07 16:07:22.866 [http-nio-8080-exec-4] ERROR com.test.demo.user.controller.UserController - 用户登录异常com.test.demo.publicres.exception.BusinessException: 登录失败
+2019-08-07 16:22:37.769 [http-nio-8080-exec-4] ERROR com.test.demo.user.controller.UserController - 新增用户异常com.alibaba.fastjson.JSONException: syntax error, expect {, actual string, pos 0
+2019-08-07 16:23:10.678 [http-nio-8080-exec-5] ERROR com.test.demo.user.controller.UserController - 新增用户异常com.alibaba.fastjson.JSONException: syntax error, expect {, actual string, pos 0
+2019-08-07 16:23:11.427 [http-nio-8080-exec-6] ERROR com.test.demo.user.controller.UserController - 新增用户异常com.alibaba.fastjson.JSONException: syntax error, expect {, actual string, pos 0
+2019-08-07 17:12:46.205 [http-nio-8080-exec-6] ERROR com.test.demo.user.controller.UserController - 新增用户异常com.alibaba.fastjson.JSONException: syntax error, expect {, actual string, pos 0
+2019-08-07 17:12:46.990 [http-nio-8080-exec-4] ERROR com.test.demo.user.controller.UserController - 新增用户异常com.alibaba.fastjson.JSONException: syntax error, expect {, actual string, pos 0
+2019-08-07 17:12:47.463 [http-nio-8080-exec-3] ERROR com.test.demo.user.controller.UserController - 新增用户异常com.alibaba.fastjson.JSONException: syntax error, expect {, actual string, pos 0
+2019-08-07 17:12:48.436 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 新增用户异常com.alibaba.fastjson.JSONException: syntax error, expect {, actual string, pos 0
+2019-08-07 17:12:48.596 [http-nio-8080-exec-5] ERROR com.test.demo.user.controller.UserController - 新增用户异常com.alibaba.fastjson.JSONException: syntax error, expect {, actual string, pos 0
