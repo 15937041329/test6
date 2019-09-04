@@ -1,11 +1,11 @@
 package com.test.demo.test.controller;
 
-import com.alibaba.fastjson.JSON;
 import com.test.demo.publicres.entity.ApiResponseEntity;
-import com.test.demo.publicres.tools.HttpClientUtil;
+import com.test.demo.user.entity.User;
 import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -18,9 +18,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @Slf4j
 public class TestController {
-    @GetMapping("test")
-    public ApiResponseEntity test(){
-        String result =  HttpClientUtil.doGet("https://www.bsfwebroot.jdvker.com:8443/admin/login?passWord=1&userName=1");
-        return ApiResponseEntity.ok().putDataValue("result:",JSON.parseObject(result));
+    @PostMapping("test")
+    public ApiResponseEntity test(@RequestBody(required = false) User user){
+        log.info("=======================================>user："+user);
+        return ApiResponseEntity.ok();
     }
 }

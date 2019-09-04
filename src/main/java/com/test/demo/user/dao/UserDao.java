@@ -1,10 +1,8 @@
 package com.test.demo.user.dao;
 
 import com.test.demo.publicres.exception.BusinessException;
-import com.test.demo.user.entity.SixLevel;
 import com.test.demo.user.entity.User;
 import org.apache.ibatis.annotations.Delete;
-import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 
@@ -66,6 +64,6 @@ public interface UserDao {
      * @Author: Ban shifeng
      * @Date: 2019/8/7 17:00
      */
-    @Select("select * from user")
+    //@Select("select * from user")
     List<User> queryUsers()throws BusinessException;
 }

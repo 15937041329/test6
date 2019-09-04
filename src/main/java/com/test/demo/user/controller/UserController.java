@@ -108,9 +108,11 @@ public class UserController {
      */
     @ApiOperation("新增用户")
     @PostMapping("/user")
-    public ApiResponseEntity addUser(@RequestParam("userJson") String userJson) {
+    public ApiResponseEntity addUser(@RequestParam(value = "userJson") String userJson) {
         try {
+            log.info("=======================>userJson："+userJson);
             User addUser = JSON.parseObject(userJson, User.class);
+            log.info("=======================>addUser："+addUser);
             Integer id = userService.addUser(addUser);
             User user = userService.queryUserById(id);
             if (user == null) {
@@ -132,8 +134,9 @@ public class UserController {
      */
     @ApiOperation("根据id修改用户")
     @PutMapping("/user")
-    public ApiResponseEntity modifyUser(@RequestParam("userJson") String userJson) {
+    public ApiResponseEntity modifyUser(@RequestParam(value = "userJson") String userJson) {
         try {
+            log.info("=================================>userJson："+userJson);
             User addUser = JSON.parseObject(userJson, User.class);
             if (addUser.getId() == null) {
                 return ApiResponseEntity.forbidden();

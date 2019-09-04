@@ -59,4 +59,7 @@
         </set>
         where id = #{id}
     </update>
+    <select id="queryUsers" resultType="com.test.demo.user.entity.User">
+        select * from user
+    </select>
 </mapper>
