@@ -1,6 +1,5 @@
 package com.test.demo.user.controller;
 
-import com.alibaba.fastjson.JSON;
 import com.test.demo.publicres.entity.ApiResponseEntity;
 import com.test.demo.publicres.jwt.JwtToken;
 import com.test.demo.user.entity.User;
@@ -100,7 +99,7 @@ public class UserController {
     }
 
     /**
-     * @param userJson
+     * @param addUser
      * @Description: 新增用户
      * @return: com.test.demo.publicres.entity.ApiResponseEntity
      * @Author: Ban shifeng
@@ -108,11 +107,10 @@ public class UserController {
      */
     @ApiOperation("新增用户")
     @PostMapping("/user")
-    public ApiResponseEntity addUser(@RequestParam(value = "userJson") String userJson) {
+    public ApiResponseEntity addUser(@RequestBody(required = false) User addUser) {
         try {
-            log.info("=======================>userJson："+userJson);
-            User addUser = JSON.parseObject(userJson, User.class);
-            log.info("=======================>addUser："+addUser);
+            log.info("=============================>addUser:"+addUser);
+            //User addUser = JSON.parseObject(userJson, User.class);
             Integer id = userService.addUser(addUser);
             User user = userService.queryUserById(id);
             if (user == null) {
@@ -126,7 +124,7 @@ public class UserController {
     }
 
     /**
-     * @param userJson
+     * @param addUser
      * @Description: 根据id修改用户
      * @return: com.test.demo.publicres.entity.ApiResponseEntity
      * @Author: Ban shifeng
@@ -134,15 +132,18 @@ public class UserController {
      */
     @ApiOperation("根据id修改用户")
     @PutMapping("/user")
-    public ApiResponseEntity modifyUser(@RequestParam(value = "userJson") String userJson) {
+    public ApiResponseEntity modifyUser(@RequestBody(required = false) User addUser) {
         try {
-            log.info("=================================>userJson："+userJson);
-            User addUser = JSON.parseObject(userJson, User.class);
+            log.info("=================================>addUser："+addUser);
+            //User addUser = JSON.parseObject(userJson, User.class);
             if (addUser.getId() == null) {
                 return ApiResponseEntity.forbidden();
             }
             userService.updateUserById(addUser);
             User user = userService.queryUserById(addUser.getId());
+            if (user == null){
+                return ApiResponseEntity.notFound();
+            }
             return ApiResponseEntity.created().putDataValue("user", user);
         } catch (Exception e) {
             log.error("根据id修改用户异常" + e);
