@@ -1,13 +1,39 @@
-2019-09-05 09:32:46.018 [http-nio-8080-exec-7] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
-2019-09-05 09:37:17.297 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
-2019-09-05 09:39:59.175 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
-2019-09-05 09:40:01.454 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
-2019-09-05 09:40:16.865 [http-nio-8080-exec-3] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
-2019-09-05 09:43:39.807 [http-nio-8080-exec-6] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
-2019-09-05 09:49:38.479 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 新增用户异常org.springframework.jdbc.BadSqlGrammarException: 
-### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
-### The error may involve com.test.demo.user.dao.UserDao.addUser-Inline
-### The error occurred while setting parameters
-### SQL: insert into user
-### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
-; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2019-09-06 14:05:19.810 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2019-09-06 14:55:38.775 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2019-09-06 15:42:59.857 [main] ERROR com.alibaba.druid.filter.FilterManager - load filter error, filter not found : wall，slf4j

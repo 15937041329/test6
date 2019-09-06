@@ -42,7 +42,6 @@ public class UserTokenInterceptor implements HandlerInterceptor {
             out.print(json);
             out.flush();
             out.close();
-
         } catch (Exception e) {
 
             ApiResponseEntity responseData = null;
