@@ -13,7 +13,7 @@ import javax.sql.DataSource;
 
 @SpringBootApplication
 @MapperScan(value = "com.test.demo.*.dao")		//扫描dao
-@ServletComponentScan
+@ServletComponentScan           //这行是为了避免扫描不到Druid的Servlet
 @EnableTransactionManagement        //开启事务
 public class DemoApplication {
     public static void main(String[] args) {
