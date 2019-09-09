@@ -64,6 +64,6 @@ public interface UserDao {
      * @Author: Ban shifeng
      * @Date: 2019/8/7 17:00
      */
-    //@Select("select * from user")
+    @Select("select * from user")
     List<User> queryUsers()throws BusinessException;
 }
