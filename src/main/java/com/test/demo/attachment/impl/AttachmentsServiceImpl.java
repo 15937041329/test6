@@ -152,12 +152,12 @@ public class AttachmentsServiceImpl implements AttachmentsService {
 				throw new BusinessException("上传附件为空");
 			}
 
-			Long attachmentSize = attachment.getSize();
+			/*Long attachmentSize = attachment.getSize();
 			if (attachmentSize > 1048576) {
 				throw new BusinessException("单个附件超过1MB");
 			} else {
 				size += attachmentSize;
-			}
+			}*/
 
 			String attachmentName = attachment.getOriginalFilename();
 
@@ -193,6 +193,11 @@ public class AttachmentsServiceImpl implements AttachmentsService {
 			allowedFileTypeList.add(".tif");
 			allowedFileTypeList.add(".gif");
 
+			//视频
+			allowedFileTypeList.add("5.视频类型");
+			allowedFileTypeList.add(".mp4");
+			allowedFileTypeList.add(".mp3");
+
 			if (StringUtils.isEmpty(suffixName)) {
 				throw new BusinessException("无附件后缀名");
 			}
@@ -203,9 +208,9 @@ public class AttachmentsServiceImpl implements AttachmentsService {
 			}
 		}
 
-		if (size > 5242880) {
+		/*if (size > 5242880) {
 			throw new BusinessException("附件超过5MB");
-		}
+		}*/
 	}
 
 	@Override

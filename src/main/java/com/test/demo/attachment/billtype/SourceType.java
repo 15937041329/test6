@@ -12,10 +12,12 @@ import java.util.List;
 public class SourceType {
 	private static List<String> list;
 	public static final String HEAD_IMG = "HEAD_IMG";				//头像
+	public static final String DEMO_VIDEO = "DEMO_VIDEO";				//头像
 	public static Boolean isSourceTypeExist (String sourceType) throws BusinessException {
 		if (list == null || list.isEmpty()) {
 			list = new ArrayList<>();
 			list.add(HEAD_IMG);
+			list.add(DEMO_VIDEO);
 		}
         return list.contains(sourceType);
     }
