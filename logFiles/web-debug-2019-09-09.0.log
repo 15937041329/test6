@@ -1,0 +1,57 @@
+2019-09-09 10:13:02.734 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-09 10:18:53.113 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-09 10:19:54.041 [http-nio-8080-exec-9] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==>  Preparing: select * from user 
+2019-09-09 10:19:54.237 [http-nio-8080-exec-9] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==> Parameters: 
+2019-09-09 10:19:54.308 [http-nio-8080-exec-9] DEBUG com.test.demo.user.dao.UserDao.queryUsers - <==      Total: 6
+2019-09-09 15:52:34.627 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-09 15:52:57.566 [http-nio-8080-exec-4] DEBUG com.test.demo.user.dao.UserDao.updateUserById - ==>  Preparing: update user SET userName=?, passWord=?, address=?, phone=?, description=? where id = ? 
+2019-09-09 15:52:57.674 [http-nio-8080-exec-4] DEBUG com.test.demo.user.dao.UserDao.updateUserById - ==> Parameters: string(String), string(String), string(String), string(String), string(String), 0(Integer)
+2019-09-09 15:52:57.703 [http-nio-8080-exec-4] DEBUG com.test.demo.user.dao.UserDao.updateUserById - <==    Updates: 0
+2019-09-09 15:52:57.708 [http-nio-8080-exec-4] DEBUG com.test.demo.user.dao.UserDao.queryUserById - ==>  Preparing: select * from user where id=? 
+2019-09-09 15:52:57.711 [http-nio-8080-exec-4] DEBUG com.test.demo.user.dao.UserDao.queryUserById - ==> Parameters: 0(Integer)
+2019-09-09 15:52:57.727 [http-nio-8080-exec-4] DEBUG com.test.demo.user.dao.UserDao.queryUserById - <==      Total: 0
+2019-09-09 15:53:10.557 [http-nio-8080-exec-5] DEBUG com.test.demo.user.dao.UserDao.updateUserById - ==>  Preparing: update user SET userName=?, passWord=?, address=?, phone=?, description=? where id = ? 
+2019-09-09 15:53:10.558 [http-nio-8080-exec-5] DEBUG com.test.demo.user.dao.UserDao.updateUserById - ==> Parameters: string(String), 1(String), string(String), 1(String), string(String), 8(Integer)
+2019-09-09 15:53:10.736 [http-nio-8080-exec-5] DEBUG com.test.demo.user.dao.UserDao.updateUserById - <==    Updates: 1
+2019-09-09 15:53:10.887 [http-nio-8080-exec-5] DEBUG com.test.demo.user.dao.UserDao.queryUserById - ==>  Preparing: select * from user where id=? 
+2019-09-09 15:53:10.888 [http-nio-8080-exec-5] DEBUG com.test.demo.user.dao.UserDao.queryUserById - ==> Parameters: 8(Integer)
+2019-09-09 15:53:10.894 [http-nio-8080-exec-5] DEBUG com.test.demo.user.dao.UserDao.queryUserById - <==      Total: 1
+2019-09-09 16:33:01.880 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-09 17:01:04.538 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-09 17:01:26.948 [http-nio-8080-exec-2] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==>  Preparing: select * from user 
+2019-09-09 17:01:27.160 [http-nio-8080-exec-2] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==> Parameters: 
+2019-09-09 17:01:27.179 [http-nio-8080-exec-2] DEBUG com.test.demo.user.dao.UserDao.queryUsers - <==      Total: 6
+2019-09-09 17:02:14.680 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-09 17:02:21.398 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==>  Preparing: select * from user 
+2019-09-09 17:02:21.489 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==> Parameters: 
+2019-09-09 17:02:21.509 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - <==      Total: 6
+2019-09-09 17:03:07.323 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-09 17:03:14.867 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==>  Preparing: select * from user 
+2019-09-09 17:03:14.945 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==> Parameters: 
+2019-09-09 17:03:14.977 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - <==      Total: 6
+2019-09-09 17:31:47.794 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-09 17:32:06.907 [http-nio-8080-exec-4] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==>  Preparing: select * from user 
+2019-09-09 17:32:07.120 [http-nio-8080-exec-4] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==> Parameters: 
+2019-09-09 17:32:07.138 [http-nio-8080-exec-4] DEBUG com.test.demo.user.dao.UserDao.queryUsers - <==      Total: 6
+2019-09-09 17:36:15.926 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-09 17:36:23.266 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==>  Preparing: select * from user 
+2019-09-09 17:36:23.338 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==> Parameters: 
+2019-09-09 17:36:23.356 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - <==      Total: 6
+2019-09-09 17:39:48.031 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-09 17:39:54.889 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==>  Preparing: select * from user 
+2019-09-09 17:39:54.980 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==> Parameters: 
+2019-09-09 17:39:54.999 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - <==      Total: 6
+2019-09-09 17:46:06.035 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-09 17:46:15.265 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-09 17:47:19.833 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-09 17:47:26.921 [http-nio-8080-exec-6] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==>  Preparing: select * from user 
+2019-09-09 17:47:27.143 [http-nio-8080-exec-6] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==> Parameters: 
+2019-09-09 17:47:27.163 [http-nio-8080-exec-6] DEBUG com.test.demo.user.dao.UserDao.queryUsers - <==      Total: 6
+2019-09-09 17:50:57.724 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-09 17:51:07.711 [http-nio-8080-exec-6] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==>  Preparing: select * from user 
+2019-09-09 17:51:07.934 [http-nio-8080-exec-6] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==> Parameters: 
+2019-09-09 17:51:07.953 [http-nio-8080-exec-6] DEBUG com.test.demo.user.dao.UserDao.queryUsers - <==      Total: 6
+2019-09-09 17:52:41.386 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-09 17:52:49.819 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==>  Preparing: select * from user 
+2019-09-09 17:52:49.894 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==> Parameters: 
+2019-09-09 17:52:49.914 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - <==      Total: 6
