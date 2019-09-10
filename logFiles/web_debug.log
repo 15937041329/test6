@@ -1,18 +1,87 @@
-2019-09-09 10:13:02.734 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
-2019-09-09 10:18:53.113 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
-2019-09-09 10:19:54.041 [http-nio-8080-exec-9] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==>  Preparing: select * from user 
-2019-09-09 10:19:54.237 [http-nio-8080-exec-9] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==> Parameters: 
-2019-09-09 10:19:54.308 [http-nio-8080-exec-9] DEBUG com.test.demo.user.dao.UserDao.queryUsers - <==      Total: 6
-2019-09-09 15:52:34.627 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
-2019-09-09 15:52:57.566 [http-nio-8080-exec-4] DEBUG com.test.demo.user.dao.UserDao.updateUserById - ==>  Preparing: update user SET userName=?, passWord=?, address=?, phone=?, description=? where id = ? 
-2019-09-09 15:52:57.674 [http-nio-8080-exec-4] DEBUG com.test.demo.user.dao.UserDao.updateUserById - ==> Parameters: string(String), string(String), string(String), string(String), string(String), 0(Integer)
-2019-09-09 15:52:57.703 [http-nio-8080-exec-4] DEBUG com.test.demo.user.dao.UserDao.updateUserById - <==    Updates: 0
-2019-09-09 15:52:57.708 [http-nio-8080-exec-4] DEBUG com.test.demo.user.dao.UserDao.queryUserById - ==>  Preparing: select * from user where id=? 
-2019-09-09 15:52:57.711 [http-nio-8080-exec-4] DEBUG com.test.demo.user.dao.UserDao.queryUserById - ==> Parameters: 0(Integer)
-2019-09-09 15:52:57.727 [http-nio-8080-exec-4] DEBUG com.test.demo.user.dao.UserDao.queryUserById - <==      Total: 0
-2019-09-09 15:53:10.557 [http-nio-8080-exec-5] DEBUG com.test.demo.user.dao.UserDao.updateUserById - ==>  Preparing: update user SET userName=?, passWord=?, address=?, phone=?, description=? where id = ? 
-2019-09-09 15:53:10.558 [http-nio-8080-exec-5] DEBUG com.test.demo.user.dao.UserDao.updateUserById - ==> Parameters: string(String), 1(String), string(String), 1(String), string(String), 8(Integer)
-2019-09-09 15:53:10.736 [http-nio-8080-exec-5] DEBUG com.test.demo.user.dao.UserDao.updateUserById - <==    Updates: 1
-2019-09-09 15:53:10.887 [http-nio-8080-exec-5] DEBUG com.test.demo.user.dao.UserDao.queryUserById - ==>  Preparing: select * from user where id=? 
-2019-09-09 15:53:10.888 [http-nio-8080-exec-5] DEBUG com.test.demo.user.dao.UserDao.queryUserById - ==> Parameters: 8(Integer)
-2019-09-09 15:53:10.894 [http-nio-8080-exec-5] DEBUG com.test.demo.user.dao.UserDao.queryUserById - <==      Total: 1
+2019-09-10 09:18:23.925 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-10 09:45:31.655 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-10 09:56:17.457 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-10 09:56:29.547 [http-nio-8080-exec-5] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==>  Preparing: select * from user 
+2019-09-10 09:56:29.946 [http-nio-8080-exec-5] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==> Parameters: 
+2019-09-10 09:56:29.992 [http-nio-8080-exec-5] DEBUG com.test.demo.user.dao.UserDao.queryUsers - <==      Total: 6
+2019-09-10 09:58:13.042 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-10 09:58:23.724 [http-nio-8080-exec-6] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==>  Preparing: select * from user 
+2019-09-10 09:58:23.942 [http-nio-8080-exec-6] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==> Parameters: 
+2019-09-10 09:58:23.963 [http-nio-8080-exec-6] DEBUG com.test.demo.user.dao.UserDao.queryUsers - <==      Total: 6
+2019-09-10 09:58:48.111 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==>  Preparing: select * from user 
+2019-09-10 09:58:48.111 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==> Parameters: 
+2019-09-10 09:58:48.114 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - <==      Total: 6
+2019-09-10 10:07:43.874 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-10 10:08:08.937 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==>  Preparing: select * from user 
+2019-09-10 10:08:09.010 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==> Parameters: 
+2019-09-10 10:08:09.029 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - <==      Total: 6
+2019-09-10 10:09:39.622 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-10 10:10:41.599 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-10 10:10:54.005 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==>  Preparing: select * from user 
+2019-09-10 10:10:54.077 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==> Parameters: 
+2019-09-10 10:10:54.099 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - <==      Total: 6
+2019-09-10 10:25:00.179 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-10 11:35:55.855 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-10 11:39:06.760 [http-nio-8080-exec-4] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==>  Preparing: select * from user 
+2019-09-10 11:39:06.828 [http-nio-8080-exec-4] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==> Parameters: 
+2019-09-10 11:39:06.845 [http-nio-8080-exec-4] DEBUG com.test.demo.user.dao.UserDao.queryUsers - <==      Total: 6
+2019-09-10 11:39:12.428 [http-nio-8080-exec-6] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==>  Preparing: select * from user 
+2019-09-10 11:39:12.428 [http-nio-8080-exec-6] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==> Parameters: 
+2019-09-10 11:39:12.431 [http-nio-8080-exec-6] DEBUG com.test.demo.user.dao.UserDao.queryUsers - <==      Total: 6
+2019-09-10 11:40:21.917 [http-nio-8080-exec-5] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==>  Preparing: select * from user 
+2019-09-10 11:40:21.918 [http-nio-8080-exec-5] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==> Parameters: 
+2019-09-10 11:40:21.921 [http-nio-8080-exec-5] DEBUG com.test.demo.user.dao.UserDao.queryUsers - <==      Total: 6
+2019-09-10 14:39:58.527 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-10 14:40:49.241 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-10 14:42:06.695 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-10 14:44:59.178 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-10 14:49:13.420 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-10 14:51:24.465 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-10 14:51:41.918 [http-nio-8080-exec-1] DEBUG c.t.d.a.dao.AttachmentsDao.insertAttachments - ==>  Preparing: insert into attachments (outid, sourcetype, url, attachmenttype, name, vdef1, vdef2, vdef3, vdef4, vdef5 ) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?) , (?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2019-09-10 14:51:42.077 [http-nio-8080-exec-1] DEBUG c.t.d.a.dao.AttachmentsDao.insertAttachments - ==> Parameters: 1(Integer), HEAD_IMG(String), http://www.jdsm.jdvker.com/uploadAttachments/head_img/20190910/156809830176539484524a2494d4a919b2bf8759afb191.jpg(String), .jpg(String), 1.jpg(String), null, null, null, null, null, 1(Integer), HEAD_IMG(String), http://www.jdsm.jdvker.com/uploadAttachments/head_img/20190910/15680983018345057829d9a4f4fae972ab94285d1360911.png(String), .png(String), 11.png(String), null, null, null, null, null
+2019-09-10 14:51:42.440 [http-nio-8080-exec-1] DEBUG c.t.d.a.dao.AttachmentsDao.insertAttachments - <==    Updates: 2
+2019-09-10 14:54:26.298 [http-nio-8080-exec-3] DEBUG c.t.d.a.dao.AttachmentsDao.insertAttachments - ==>  Preparing: insert into attachments (outid, sourcetype, url, attachmenttype, name, vdef1, vdef2, vdef3, vdef4, vdef5 ) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2019-09-10 14:54:26.300 [http-nio-8080-exec-3] DEBUG c.t.d.a.dao.AttachmentsDao.insertAttachments - ==> Parameters: 1(Integer), HEAD_IMG(String), http://www.jdsm.jdvker.com/uploadAttachments/head_img/20190910/1568098466291188007ddd3f3455ab0ccb9ce73cf688f25793214.xlsx(String), .xlsx(String), 25793214.xlsx(String), null, null, null, null, null
+2019-09-10 14:54:26.564 [http-nio-8080-exec-3] DEBUG c.t.d.a.dao.AttachmentsDao.insertAttachments - <==    Updates: 1
+2019-09-10 14:57:11.029 [http-nio-8080-exec-5] DEBUG c.t.d.a.d.AttachmentsDao.queryAttachmentVOsByOutid - ==>  Preparing: select * from attachments where outid = ? and dr = 0 and sourcetype = ? 
+2019-09-10 14:57:11.088 [http-nio-8080-exec-5] DEBUG c.t.d.a.d.AttachmentsDao.queryAttachmentVOsByOutid - ==> Parameters: 2(Integer), HEAD_IMG(String)
+2019-09-10 14:57:11.096 [http-nio-8080-exec-5] DEBUG c.t.d.a.d.AttachmentsDao.queryAttachmentVOsByOutid - <==      Total: 0
+2019-09-10 14:57:11.098 [http-nio-8080-exec-5] DEBUG c.t.d.a.dao.AttachmentsDao.attachmentBinding - ==>  Preparing: update attachments set outid = ?, ts = NOW() where id in ( ? , ? ) and dr = 0 
+2019-09-10 14:57:11.103 [http-nio-8080-exec-5] DEBUG c.t.d.a.dao.AttachmentsDao.attachmentBinding - ==> Parameters: 2(Integer), 3(Integer), 2(Integer)
+2019-09-10 14:57:11.284 [http-nio-8080-exec-5] DEBUG c.t.d.a.dao.AttachmentsDao.attachmentBinding - <==    Updates: 2
+2019-09-10 15:00:43.813 [http-nio-8080-exec-7] DEBUG c.t.d.a.d.AttachmentsDao.queryAttachmentVOsByOutid - ==>  Preparing: select * from attachments where outid = ? and dr = 0 and sourcetype = ? 
+2019-09-10 15:00:43.814 [http-nio-8080-exec-7] DEBUG c.t.d.a.d.AttachmentsDao.queryAttachmentVOsByOutid - ==> Parameters: 1(Integer), HEAD_IMG(String)
+2019-09-10 15:00:43.819 [http-nio-8080-exec-7] DEBUG c.t.d.a.d.AttachmentsDao.queryAttachmentVOsByOutid - <==      Total: 1
+2019-09-10 15:00:43.824 [http-nio-8080-exec-7] DEBUG c.t.d.a.dao.AttachmentsDao.deleteAttachments - ==>  Preparing: update attachments set dr = 1, ts = NOW() WHERE outid = ? and dr = 0 and id in ( ? ) 
+2019-09-10 15:00:43.825 [http-nio-8080-exec-7] DEBUG c.t.d.a.dao.AttachmentsDao.deleteAttachments - ==> Parameters: 1(Integer), 1(Integer)
+2019-09-10 15:00:44.079 [http-nio-8080-exec-7] DEBUG c.t.d.a.dao.AttachmentsDao.deleteAttachments - <==    Updates: 1
+2019-09-10 15:00:44.080 [http-nio-8080-exec-7] DEBUG c.t.d.a.dao.AttachmentsDao.attachmentBinding - ==>  Preparing: update attachments set outid = ?, ts = NOW() where id in ( ? , ? ) and dr = 0 
+2019-09-10 15:00:44.081 [http-nio-8080-exec-7] DEBUG c.t.d.a.dao.AttachmentsDao.attachmentBinding - ==> Parameters: 1(Integer), 3(Integer), 2(Integer)
+2019-09-10 15:00:44.243 [http-nio-8080-exec-7] DEBUG c.t.d.a.dao.AttachmentsDao.attachmentBinding - <==    Updates: 2
+2019-09-10 15:01:02.385 [http-nio-8080-exec-8] DEBUG c.t.d.a.d.AttachmentsDao.queryAttachmentVOsByOutid - ==>  Preparing: select * from attachments where outid = ? and dr = 0 and sourcetype = ? 
+2019-09-10 15:01:02.386 [http-nio-8080-exec-8] DEBUG c.t.d.a.d.AttachmentsDao.queryAttachmentVOsByOutid - ==> Parameters: 1(Integer), HEAD_IMG(String)
+2019-09-10 15:01:02.389 [http-nio-8080-exec-8] DEBUG c.t.d.a.d.AttachmentsDao.queryAttachmentVOsByOutid - <==      Total: 2
+2019-09-10 15:01:02.390 [http-nio-8080-exec-8] DEBUG c.t.d.a.dao.AttachmentsDao.deleteAttachments - ==>  Preparing: update attachments set dr = 1, ts = NOW() WHERE outid = ? and dr = 0 and id in ( ? ) 
+2019-09-10 15:01:02.392 [http-nio-8080-exec-8] DEBUG c.t.d.a.dao.AttachmentsDao.deleteAttachments - ==> Parameters: 1(Integer), 2(Integer)
+2019-09-10 15:01:02.615 [http-nio-8080-exec-8] DEBUG c.t.d.a.dao.AttachmentsDao.deleteAttachments - <==    Updates: 1
+2019-09-10 15:01:02.617 [http-nio-8080-exec-8] DEBUG c.t.d.a.dao.AttachmentsDao.attachmentBinding - ==>  Preparing: update attachments set outid = ?, ts = NOW() where id in ( ? ) and dr = 0 
+2019-09-10 15:01:02.618 [http-nio-8080-exec-8] DEBUG c.t.d.a.dao.AttachmentsDao.attachmentBinding - ==> Parameters: 1(Integer), 3(Integer)
+2019-09-10 15:01:02.852 [http-nio-8080-exec-8] DEBUG c.t.d.a.dao.AttachmentsDao.attachmentBinding - <==    Updates: 1
+2019-09-10 15:01:04.255 [http-nio-8080-exec-9] DEBUG c.t.d.a.d.AttachmentsDao.queryAttachmentVOsByOutid - ==>  Preparing: select * from attachments where outid = ? and dr = 0 and sourcetype = ? 
+2019-09-10 15:01:04.256 [http-nio-8080-exec-9] DEBUG c.t.d.a.d.AttachmentsDao.queryAttachmentVOsByOutid - ==> Parameters: 2(Integer), HEAD_IMG(String)
+2019-09-10 15:01:04.257 [http-nio-8080-exec-9] DEBUG c.t.d.a.d.AttachmentsDao.queryAttachmentVOsByOutid - <==      Total: 0
+2019-09-10 15:01:04.259 [http-nio-8080-exec-9] DEBUG c.t.d.a.dao.AttachmentsDao.attachmentBinding - ==>  Preparing: update attachments set outid = ?, ts = NOW() where id in ( ? ) and dr = 0 
+2019-09-10 15:01:04.259 [http-nio-8080-exec-9] DEBUG c.t.d.a.dao.AttachmentsDao.attachmentBinding - ==> Parameters: 2(Integer), 3(Integer)
+2019-09-10 15:01:04.387 [http-nio-8080-exec-9] DEBUG c.t.d.a.dao.AttachmentsDao.attachmentBinding - <==    Updates: 1
+2019-09-10 15:01:06.322 [http-nio-8080-exec-10] DEBUG c.t.d.a.d.AttachmentsDao.queryAttachmentVOsByOutid - ==>  Preparing: select * from attachments where outid = ? and dr = 0 and sourcetype = ? 
+2019-09-10 15:01:06.323 [http-nio-8080-exec-10] DEBUG c.t.d.a.d.AttachmentsDao.queryAttachmentVOsByOutid - ==> Parameters: 2(Integer), HEAD_IMG(String)
+2019-09-10 15:01:06.324 [http-nio-8080-exec-10] DEBUG c.t.d.a.d.AttachmentsDao.queryAttachmentVOsByOutid - <==      Total: 1
+2019-09-10 15:01:06.326 [http-nio-8080-exec-10] DEBUG c.t.d.a.dao.AttachmentsDao.attachmentBinding - ==>  Preparing: update attachments set outid = ?, ts = NOW() where id in ( ? ) and dr = 0 
+2019-09-10 15:01:06.326 [http-nio-8080-exec-10] DEBUG c.t.d.a.dao.AttachmentsDao.attachmentBinding - ==> Parameters: 2(Integer), 3(Integer)
+2019-09-10 15:01:06.467 [http-nio-8080-exec-10] DEBUG c.t.d.a.dao.AttachmentsDao.attachmentBinding - <==    Updates: 1
+2019-09-10 15:01:36.565 [http-nio-8080-exec-1] DEBUG c.t.d.a.d.AttachmentsDao.queryAttachmentVOsByOutid - ==>  Preparing: select * from attachments where outid = ? and dr = 0 and sourcetype = ? 
+2019-09-10 15:01:36.566 [http-nio-8080-exec-1] DEBUG c.t.d.a.d.AttachmentsDao.queryAttachmentVOsByOutid - ==> Parameters: 2(Integer), HEAD_IMG(String)
+2019-09-10 15:01:36.568 [http-nio-8080-exec-1] DEBUG c.t.d.a.d.AttachmentsDao.queryAttachmentVOsByOutid - <==      Total: 1
+2019-09-10 15:01:36.570 [http-nio-8080-exec-1] DEBUG c.t.d.a.dao.AttachmentsDao.attachmentBinding - ==>  Preparing: update attachments set outid = ?, ts = NOW() where id in ( ? ) and dr = 0 
+2019-09-10 15:01:36.570 [http-nio-8080-exec-1] DEBUG c.t.d.a.dao.AttachmentsDao.attachmentBinding - ==> Parameters: 2(Integer), 3(Integer)
+2019-09-10 15:01:36.832 [http-nio-8080-exec-1] DEBUG c.t.d.a.dao.AttachmentsDao.attachmentBinding - <==    Updates: 1

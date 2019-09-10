@@ -49,15 +49,11 @@ spring:
   #上传附件大小
   servlet:
     multipart:
-      max-file-size: 1000MB
-      max-request-size: 5000MB
-#附件映射路径
-resources:
-  static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,file:${attachmentsUpload.RootDirectory}
-
+      max-file-size: 1024MB
+      max-request-size: 2048MB
 #附件存储根路径
 attachmentsUpload:
-  rootDirectory: D:/wwwroot/jdsm/wwwroot/uploadAttachments/
+  rootDirectory: E:/files/uploadAttachments/
   ipAddress: http://www.jdsm.jdvker.com
 
 #日志配置

@@ -1,0 +1,190 @@
+2019-09-04 10:36:14.418 [http-nio-8080-exec-6] ERROR com.test.demo.user.controller.UserController - 新增用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.addUser
+2019-09-04 10:38:47.586 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 新增用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.addUser
+2019-09-04 10:39:52.549 [http-nio-8080-exec-3] ERROR com.test.demo.user.controller.UserController - 新增用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.addUser
+2019-09-04 10:41:55.053 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 新增用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.addUser
+2019-09-04 10:47:03.447 [http-nio-8080-exec-6] ERROR com.test.demo.user.controller.UserController - 新增用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.addUser
+2019-09-04 10:47:22.385 [http-nio-8080-exec-4] ERROR com.test.demo.user.controller.UserController - 新增用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.addUser
+2019-09-04 10:48:04.075 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 新增用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.addUser
+2019-09-04 10:49:36.682 [http-nio-8080-exec-4] ERROR com.test.demo.user.controller.UserController - 新增用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.addUser
+2019-09-04 10:49:40.181 [http-nio-8080-exec-5] ERROR com.test.demo.user.controller.UserController - 新增用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.addUser
+2019-09-04 10:51:50.783 [http-nio-8080-exec-3] ERROR com.test.demo.user.controller.UserController - 根据id修改用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.updateUserById
+2019-09-04 10:52:52.107 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 根据id修改用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.updateUserById
+2019-09-04 10:53:33.463 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 根据id修改用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.updateUserById
+2019-09-04 10:53:35.619 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 根据id修改用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.updateUserById
+2019-09-04 10:58:59.974 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 根据id修改用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.updateUserById
+2019-09-04 10:59:37.860 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 根据id修改用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.updateUserById
+2019-09-04 10:59:38.287 [http-nio-8080-exec-3] ERROR com.test.demo.user.controller.UserController - 根据id修改用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.updateUserById
+2019-09-04 10:59:38.438 [http-nio-8080-exec-4] ERROR com.test.demo.user.controller.UserController - 根据id修改用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.updateUserById
+2019-09-04 11:02:15.427 [http-nio-8080-exec-6] ERROR com.test.demo.user.controller.UserController - 根据id修改用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.updateUserById
+2019-09-04 11:06:04.224 [http-nio-8080-exec-8] ERROR com.test.demo.user.controller.UserController - 根据id修改用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.updateUserById
+2019-09-04 11:09:29.837 [http-nio-8080-exec-7] ERROR com.test.demo.user.controller.UserController - 根据id修改用户异常com.alibaba.fastjson.JSONException: syntax error, expect {, actual int, pos 0
+2019-09-04 14:29:07.951 [http-nio-8080-exec-3] ERROR com.test.demo.user.controller.UserController - 新增用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.addUser
+2019-09-04 14:35:35.835 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 新增用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.addUser
+2019-09-04 14:38:58.372 [http-nio-8080-exec-4] ERROR com.test.demo.user.controller.UserController - 新增用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.addUser
+2019-09-04 14:39:50.498 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 新增用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.addUser
+2019-09-04 15:14:50.099 [http-nio-8080-exec-3] ERROR com.test.demo.user.controller.UserController - 新增用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.addUser
+2019-09-04 15:16:03.475 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 新增用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.addUser
+2019-09-04 15:17:05.043 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 新增用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.addUser
+2019-09-04 15:18:02.492 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 新增用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.addUser
+2019-09-04 15:18:10.214 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 新增用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.addUser
+2019-09-04 15:19:18.811 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 新增用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.addUser
+2019-09-04 15:24:14.162 [http-nio-8080-exec-6] ERROR com.test.demo.user.controller.UserController - 新增用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.addUser
+2019-09-04 15:31:53.052 [http-nio-8080-exec-3] ERROR com.test.demo.user.controller.UserController - 根据id修改用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.updateUserById
+2019-09-04 15:41:39.225 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 根据id修改用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.updateUserById
+2019-09-04 15:42:10.343 [http-nio-8080-exec-3] ERROR com.test.demo.user.controller.UserController - 根据id修改用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.updateUserById
+2019-09-04 15:46:27.033 [http-nio-8080-exec-5] ERROR com.test.demo.user.controller.UserController - 新增用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.addUser
+2019-09-04 15:47:43.136 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 15:50:29.104 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 15:50:31.509 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 15:50:31.978 [http-nio-8080-exec-3] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 15:53:19.531 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 15:53:20.351 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 15:53:20.520 [http-nio-8080-exec-3] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 15:53:20.705 [http-nio-8080-exec-4] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 15:53:20.869 [http-nio-8080-exec-5] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 15:54:18.931 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 15:54:20.029 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 15:56:38.727 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:03:04.011 [main] ERROR org.apache.catalina.util.LifecycleBase - Failed to start component [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203)
+	at com.test.demo.DemoApplication.main(DemoApplication.java:15)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2019-09-04 16:03:04.028 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2019-09-04 16:04:29.111 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:04:29.697 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:04:29.869 [http-nio-8080-exec-3] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:04:30.041 [http-nio-8080-exec-4] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:04:30.330 [http-nio-8080-exec-5] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:04:30.540 [http-nio-8080-exec-7] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:04:30.697 [http-nio-8080-exec-6] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:04:30.871 [http-nio-8080-exec-8] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:04:31.016 [http-nio-8080-exec-10] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:05:22.826 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:05:23.654 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:05:23.825 [http-nio-8080-exec-3] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:05:24.005 [http-nio-8080-exec-4] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:05:24.156 [http-nio-8080-exec-5] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:06:37.184 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:06:38.518 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:07:17.611 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:09:31.265 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:12:12.088 [http-nio-8080-exec-8] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:13:43.578 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:13:44.979 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:13:45.440 [http-nio-8080-exec-3] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:13:45.613 [http-nio-8080-exec-4] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:13:45.793 [http-nio-8080-exec-5] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:13:45.948 [http-nio-8080-exec-6] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:15:01.703 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:15:02.199 [http-nio-8080-exec-3] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:15:03.017 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:15:03.213 [http-nio-8080-exec-4] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:22:29.633 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:22:31.053 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:22:31.600 [http-nio-8080-exec-3] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:22:31.788 [http-nio-8080-exec-4] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:22:31.957 [http-nio-8080-exec-5] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:22:32.117 [http-nio-8080-exec-6] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:22:32.445 [http-nio-8080-exec-7] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:22:32.634 [http-nio-8080-exec-8] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:22:32.812 [http-nio-8080-exec-9] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:22:32.995 [http-nio-8080-exec-10] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:22:33.165 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:22:33.318 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:22:33.739 [http-nio-8080-exec-3] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:22:33.898 [http-nio-8080-exec-4] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:22:34.065 [http-nio-8080-exec-5] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:23:21.480 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:29:16.827 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:29:17.814 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:29:18.189 [http-nio-8080-exec-3] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:29:18.366 [http-nio-8080-exec-4] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:29:18.533 [http-nio-8080-exec-5] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:29:18.690 [http-nio-8080-exec-6] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:30:55.745 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:30:56.333 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:30:56.531 [http-nio-8080-exec-3] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:30:56.699 [http-nio-8080-exec-4] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:30:56.886 [http-nio-8080-exec-5] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:30:57.038 [http-nio-8080-exec-6] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:30:57.198 [http-nio-8080-exec-7] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:30:57.364 [http-nio-8080-exec-8] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:30:57.508 [http-nio-8080-exec-9] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:33:11.054 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:34:22.710 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:34:23.583 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:34:24.119 [http-nio-8080-exec-3] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:34:24.308 [http-nio-8080-exec-4] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:34:24.468 [http-nio-8080-exec-5] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:34:24.613 [http-nio-8080-exec-6] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:45:14.774 [http-nio-8080-exec-3] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:45:16.566 [http-nio-8080-exec-4] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:45:16.733 [http-nio-8080-exec-5] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:45:16.934 [http-nio-8080-exec-6] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:45:17.077 [http-nio-8080-exec-7] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:46:07.174 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:50:51.495 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:57:26.544 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:57:26.994 [http-nio-8080-exec-4] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:57:27.406 [http-nio-8080-exec-5] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:57:27.566 [http-nio-8080-exec-6] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:58:42.538 [http-nio-8080-exec-8] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:58:42.690 [http-nio-8080-exec-9] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:58:42.868 [http-nio-8080-exec-10] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 16:58:43.029 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 17:03:23.954 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 17:03:24.123 [http-nio-8080-exec-4] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 17:03:24.403 [http-nio-8080-exec-5] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 17:03:24.580 [http-nio-8080-exec-6] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 17:03:24.747 [http-nio-8080-exec-7] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 17:09:01.522 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 17:09:02.301 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 17:09:02.513 [http-nio-8080-exec-3] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 17:09:02.683 [http-nio-8080-exec-4] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 17:09:02.848 [http-nio-8080-exec-5] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 17:18:10.236 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 17:18:10.852 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 17:24:43.359 [http-nio-8080-exec-4] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 17:24:43.523 [http-nio-8080-exec-5] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 17:24:43.698 [http-nio-8080-exec-6] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 17:56:27.749 [http-nio-8080-exec-2] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers
+2019-09-04 18:01:26.177 [http-nio-8080-exec-1] ERROR com.test.demo.user.controller.UserController - 查询所有用户异常org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.test.demo.user.dao.UserDao.queryUsers

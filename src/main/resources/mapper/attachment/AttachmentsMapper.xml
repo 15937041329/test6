@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper  namespace="com.test.demo.attachment.dao.AttachmentsDao">
+	
+	<!-- 附件VO -->
+	<resultMap type="com.test.demo.attachment.entity.AttachmentVO" id="attachmentvo">
+		<id column="id" property="id"/>
+		<result column="outid" property="outid"/>
+		<result column="sourcetype" property="sourcetype"/>
+		<result column="url" property="url"/>
+		<result column="attachmenttype" property="attachmenttype"/>
+		<result column="name" property="name"/>
+		<result column="ts" property="ts"/>
+		<result column="dr" property="dr"/>
+		<result column="vdef1" property="vdef1"/>
+		<result column="vdef2" property="vdef2"/>
+		<result column="vdef3" property="vdef3"/>
+		<result column="vdef4" property="vdef4"/>
+		<result column="vdef5" property="vdef5"/>
+	</resultMap>
+	
+	<!-- 保存附件vo -->
+	<insert id="insertAttachments" useGeneratedKeys="true" keyProperty="id" parameterType="java.util.List">
+		insert into attachments 
+		(outid, sourcetype, url, attachmenttype,
+		 name, vdef1, vdef2, vdef3, 
+		 vdef4,  vdef5 ) 
+		values 
+		<foreach collection ="list" item="item" separator =",">
+		(#{item.outid}, #{item.sourcetype}, #{item.url}, #{item.attachmenttype}, 
+		 #{item.name}, #{item.vdef1}, #{item.vdef2}, #{item.vdef3},
+		 #{item.vdef4}, #{item.vdef5})
+		</foreach>
+	</insert>
+	
+	<!-- 根据outid和id删除附件vo -->
+	<update id="deleteAttachments" parameterType="Integer">
+		update attachments set  
+		dr = 1, ts = NOW()
+		<where>
+			outid = #{outid} and dr = 0 
+			<if test="idList != null">
+				and id in
+				<foreach index="index" item="item" collection="idList" open="(" separator="," close=")">
+					#{item}
+				</foreach>
+			</if>
+		</where>
+	</update>
+	
+	<!-- 将附件与外键绑定 -->
+	<update id="attachmentBinding">
+		update attachments set  
+		outid = #{outid}, ts = NOW()
+		where id in  
+		<foreach item="item" index="index" collection="idList" open="(" separator="," close=")">
+			#{item} 
+		</foreach>
+		and dr = 0
+	</update>
+	
+	<select id="queryAttachmentVOsByOutids" resultMap="attachmentvo">
+		select * from attachments 
+		<where>
+			sourcetype = #{sourceType}
+			and dr = 0
+			and outid in 
+			<foreach item="item" index="index" collection="outidList" open="(" separator="," close=")">
+				#{item} 
+			</foreach>
+		</where>
+	</select>
+	
+	<select id="queryAttachmentVOsByOutid" resultMap="attachmentvo">
+		select * from attachments where outid = #{outid} and dr = 0 and sourcetype = #{sourcetype}
+	</select>
+	
+</mapper>
