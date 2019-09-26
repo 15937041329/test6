@@ -1,0 +1,14 @@
+2019-09-17 11:21:38.242 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 11:22:02.463 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUserById - ==>  Preparing: select * from user where id=? 
+2019-09-17 11:22:02.549 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUserById - ==> Parameters: 4(Integer)
+2019-09-17 11:22:02.866 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUserById - <==      Total: 1
+2019-09-17 11:27:42.428 [http-nio-8080-exec-4] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==>  Preparing: select * from user 
+2019-09-17 11:27:42.429 [http-nio-8080-exec-4] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==> Parameters: 
+2019-09-17 11:27:42.432 [http-nio-8080-exec-4] DEBUG com.test.demo.user.dao.UserDao.queryUsers - <==      Total: 6
+2019-09-17 11:36:46.112 [http-nio-8080-exec-6] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==>  Preparing: select * from user 
+2019-09-17 11:36:46.112 [http-nio-8080-exec-6] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==> Parameters: 
+2019-09-17 11:36:46.116 [http-nio-8080-exec-6] DEBUG com.test.demo.user.dao.UserDao.queryUsers - <==      Total: 6
+2019-09-17 11:37:46.500 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 11:37:54.564 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==>  Preparing: select * from user 
+2019-09-17 11:37:54.637 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==> Parameters: 
+2019-09-17 11:37:54.654 [http-nio-8080-exec-1] DEBUG com.test.demo.user.dao.UserDao.queryUsers - <==      Total: 6

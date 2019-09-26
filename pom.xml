@@ -19,6 +19,12 @@
     </properties>
 
     <dependencies>
+        <!--xxljob-->
+        <dependency>
+            <groupId>com.xuxueli</groupId>
+            <artifactId>xxl-job</artifactId>
+            <version>2.1.0</version>
+        </dependency>
         <!--阿里巴巴easyExcel-->
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -227,6 +233,11 @@
             <artifactId>annotations</artifactId>
             <version>RELEASE</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.xuxueli</groupId>
+            <artifactId>xxl-job-core</artifactId>
+            <version>2.1.0</version>
         </dependency>
 
     </dependencies>

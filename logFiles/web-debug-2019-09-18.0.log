@@ -1,0 +1,56 @@
+2019-09-18 09:11:56.677 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 14:05:15.613 [main] DEBUG com.test.demo.DemoApplicationTests - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 14:06:19.348 [main] DEBUG com.test.demo.DemoApplicationTests - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 14:07:34.229 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 16:32:57.441 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 16:33:33.733 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 16:34:32.954 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 16:53:06.184 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 16:54:06.032 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 16:55:04.730 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 16:56:15.016 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 16:57:01.787 [http-nio-8080-exec-7] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==>  Preparing: select * from user 
+2019-09-18 16:57:01.933 [http-nio-8080-exec-7] DEBUG com.test.demo.user.dao.UserDao.queryUsers - ==> Parameters: 
+2019-09-18 16:57:01.957 [http-nio-8080-exec-7] DEBUG com.test.demo.user.dao.UserDao.queryUsers - <==      Total: 6
+2019-09-18 17:16:27.336 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 17:17:54.615 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 17:18:23.331 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 17:21:51.664 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 17:22:38.854 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 17:25:57.507 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 17:26:12.658 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 17:26:22.166 [http-nio-8080-exec-1] DEBUG com.test.demo.student.dao.StudentDao.queryById - ==>  Preparing: select id, name, gender, age, classname, cd, dr from test.student where id = ? 
+2019-09-18 17:26:22.338 [http-nio-8080-exec-1] DEBUG com.test.demo.student.dao.StudentDao.queryById - ==> Parameters: 1(Long)
+2019-09-18 17:26:22.354 [http-nio-8080-exec-1] DEBUG com.test.demo.student.dao.StudentDao.queryById - <==      Total: 1
+2019-09-18 17:29:51.193 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 17:29:58.932 [http-nio-8080-exec-2] DEBUG com.test.demo.student.dao.StudentDao.queryById - ==>  Preparing: select id, name, gender, age, classname, cd, dr from test.student where id = ? 
+2019-09-18 17:29:59.029 [http-nio-8080-exec-2] DEBUG com.test.demo.student.dao.StudentDao.queryById - ==> Parameters: 1(Long)
+2019-09-18 17:29:59.044 [http-nio-8080-exec-2] DEBUG com.test.demo.student.dao.StudentDao.queryById - <==      Total: 1
+2019-09-18 17:30:00.122 [http-nio-8080-exec-1] DEBUG com.test.demo.student.dao.StudentDao.queryById - ==>  Preparing: select id, name, gender, age, classname, cd, dr from test.student where id = ? 
+2019-09-18 17:30:00.122 [http-nio-8080-exec-1] DEBUG com.test.demo.student.dao.StudentDao.queryById - ==> Parameters: 1(Long)
+2019-09-18 17:30:00.124 [http-nio-8080-exec-1] DEBUG com.test.demo.student.dao.StudentDao.queryById - <==      Total: 1
+2019-09-18 17:30:00.710 [http-nio-8080-exec-3] DEBUG com.test.demo.student.dao.StudentDao.queryById - ==>  Preparing: select id, name, gender, age, classname, cd, dr from test.student where id = ? 
+2019-09-18 17:30:00.711 [http-nio-8080-exec-3] DEBUG com.test.demo.student.dao.StudentDao.queryById - ==> Parameters: 1(Long)
+2019-09-18 17:30:00.712 [http-nio-8080-exec-3] DEBUG com.test.demo.student.dao.StudentDao.queryById - <==      Total: 1
+2019-09-18 17:30:00.872 [http-nio-8080-exec-4] DEBUG com.test.demo.student.dao.StudentDao.queryById - ==>  Preparing: select id, name, gender, age, classname, cd, dr from test.student where id = ? 
+2019-09-18 17:30:00.872 [http-nio-8080-exec-4] DEBUG com.test.demo.student.dao.StudentDao.queryById - ==> Parameters: 1(Long)
+2019-09-18 17:30:00.874 [http-nio-8080-exec-4] DEBUG com.test.demo.student.dao.StudentDao.queryById - <==      Total: 1
+2019-09-18 17:30:01.054 [http-nio-8080-exec-5] DEBUG com.test.demo.student.dao.StudentDao.queryById - ==>  Preparing: select id, name, gender, age, classname, cd, dr from test.student where id = ? 
+2019-09-18 17:30:01.054 [http-nio-8080-exec-5] DEBUG com.test.demo.student.dao.StudentDao.queryById - ==> Parameters: 1(Long)
+2019-09-18 17:30:01.055 [http-nio-8080-exec-5] DEBUG com.test.demo.student.dao.StudentDao.queryById - <==      Total: 1
+2019-09-18 17:30:01.217 [http-nio-8080-exec-6] DEBUG com.test.demo.student.dao.StudentDao.queryById - ==>  Preparing: select id, name, gender, age, classname, cd, dr from test.student where id = ? 
+2019-09-18 17:30:01.218 [http-nio-8080-exec-6] DEBUG com.test.demo.student.dao.StudentDao.queryById - ==> Parameters: 1(Long)
+2019-09-18 17:30:01.219 [http-nio-8080-exec-6] DEBUG com.test.demo.student.dao.StudentDao.queryById - <==      Total: 1
+2019-09-18 17:31:51.101 [http-nio-8080-exec-8] DEBUG com.test.demo.student.dao.StudentDao.queryById - ==>  Preparing: select id, name, gender, age, classname, cd, dr from test.student where id = ? 
+2019-09-18 17:31:51.101 [http-nio-8080-exec-8] DEBUG com.test.demo.student.dao.StudentDao.queryById - ==> Parameters: 1(Long)
+2019-09-18 17:31:51.103 [http-nio-8080-exec-8] DEBUG com.test.demo.student.dao.StudentDao.queryById - <==      Total: 1
+2019-09-18 17:31:51.582 [http-nio-8080-exec-10] DEBUG com.test.demo.student.dao.StudentDao.queryById - ==>  Preparing: select id, name, gender, age, classname, cd, dr from test.student where id = ? 
+2019-09-18 17:31:51.582 [http-nio-8080-exec-10] DEBUG com.test.demo.student.dao.StudentDao.queryById - ==> Parameters: 1(Long)
+2019-09-18 17:31:51.584 [http-nio-8080-exec-10] DEBUG com.test.demo.student.dao.StudentDao.queryById - <==      Total: 1
+2019-09-18 17:31:51.746 [http-nio-8080-exec-9] DEBUG com.test.demo.student.dao.StudentDao.queryById - ==>  Preparing: select id, name, gender, age, classname, cd, dr from test.student where id = ? 
+2019-09-18 17:31:51.746 [http-nio-8080-exec-9] DEBUG com.test.demo.student.dao.StudentDao.queryById - ==> Parameters: 1(Long)
+2019-09-18 17:31:51.747 [http-nio-8080-exec-9] DEBUG com.test.demo.student.dao.StudentDao.queryById - <==      Total: 1
+2019-09-18 17:32:54.937 [main] DEBUG com.test.demo.DemoApplication - Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 17:33:19.754 [http-nio-8080-exec-1] DEBUG com.test.demo.student.dao.StudentDao.queryById - ==>  Preparing: select id, name, gender, age, classname, cd, dr from test.student where id = ? 
+2019-09-18 17:33:19.845 [http-nio-8080-exec-1] DEBUG com.test.demo.student.dao.StudentDao.queryById - ==> Parameters: 1(Long)
+2019-09-18 17:33:19.866 [http-nio-8080-exec-1] DEBUG com.test.demo.student.dao.StudentDao.queryById - <==      Total: 1

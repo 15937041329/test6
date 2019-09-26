@@ -2,15 +2,13 @@ package com.test.demo.attachment.controller;
 
 import com.test.demo.attachment.entity.AttachmentVO;
 import com.test.demo.attachment.service.AttachmentsService;
+import com.test.demo.publicres.entity.ApiResponseEntity;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.HashMap;
@@ -24,7 +22,7 @@ import java.util.Map;
  * @date 2018年10月26日
  */
 
-@Api(tags="attachments接口")
+@Api(tags="文件上传接口")
 @RestController
 @RequestMapping("/rs/attachmentsUpload")
 public class AttachmentsController {
@@ -40,7 +38,7 @@ public class AttachmentsController {
 	 * @param outid 附件所属外键
 	 * @return
 	 */
-	@ApiOperation(value="上传附件", notes = "sourceType固定值：USER_WECHATQRCODE|顾问微信二维码，COUPON_IMG|优惠券")
+	@ApiOperation(value="上传附件")
 	@PostMapping("/upload")
 	public Map<String, Object> upload (@RequestParam("files") List<MultipartFile> files,
 									   @RequestParam("sourceType") String sourceType,
@@ -66,7 +64,7 @@ public class AttachmentsController {
 	 * @param idList 附件主键集合
 	 * @return
 	 */
-	@ApiOperation(value="将附件与外键绑定",notes="sourceType固定值：USER_WECHATQRCODE|微信二维码，USER_HEAD_IMG|用户头像")
+	@ApiOperation(value="将附件与外键绑定")
 	@PostMapping(value="/binding")
 	public Map<String, Object> attachmentBinding (@RequestParam("outid") Integer outid,
                                                   @RequestParam("idList") List<Integer> idList,
@@ -82,6 +80,29 @@ public class AttachmentsController {
 			returnMap.put("message", "将附件与外键绑定："+e.getMessage());
 		}
 		return returnMap;
+	}
+	/**
+	 * @Description: 得到附件
+	 * @param outidList
+	 * @param sourceType
+	 * @return: com.test.demo.publicres.entity.ApiResponseEntity
+	 * @Author: Ban shifeng
+	 * @Date: 2019/9/19 17:05
+	 */
+	@ApiOperation("得到附件")
+	@GetMapping("getAttachment")
+	public ApiResponseEntity getAttachment(@RequestParam("outidList") List<Integer> outidList,
+										   @RequestParam("sourceType") String sourceType){
+		try {
+			List<AttachmentVO> attachmentVOList = service.queryAttachmentVOsByOutids(outidList, sourceType);
+			if (attachmentVOList == null || attachmentVOList.size() == 0){
+				return ApiResponseEntity.notFound();
+			}
+			return ApiResponseEntity.ok().putDataValue("attachmentVOList",attachmentVOList);
+		}catch (Exception e){
+			log.error("得到附件异常："+e);
+			return ApiResponseEntity.error("得到附件异常："+e.getMessage());
+		}
 	}
 }
 

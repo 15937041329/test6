@@ -18,7 +18,7 @@ import javax.annotation.Resource;
  * @author: Ban shifeng
  * @create: 2019-08-08 15:25
  **/
-@Api(tags = "test接口")
+@Api(tags = "测试接口")
 @RestController
 @Slf4j
 public class TestController {

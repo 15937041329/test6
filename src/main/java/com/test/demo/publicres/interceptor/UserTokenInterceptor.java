@@ -47,7 +47,7 @@ public class UserTokenInterceptor implements HandlerInterceptor {
             ApiResponseEntity responseData = null;
 
             if (e instanceof TokenExpiredException) {
-                responseData = ApiResponseEntity.ExpiredError();
+                responseData = ApiResponseEntity.expiredError();
 
             } else {
                 responseData = ApiResponseEntity.setOrtherMessage(e.getMessage());

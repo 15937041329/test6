@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.test.demo.student.dao.StudentDao">
+
+    <resultMap type="com.test.demo.student.entity.Student" id="StudentMap">
+        <result property="id" column="id" jdbcType="BIGINT"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+        <result property="gender" column="gender" jdbcType="INTEGER"/>
+        <result property="age" column="age" jdbcType="INTEGER"/>
+        <result property="classname" column="classname" jdbcType="VARCHAR"/>
+        <result property="cd" column="cd" jdbcType="TIMESTAMP"/>
+        <result property="dr" column="dr" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="StudentMap">
+        select
+          id, name, gender, age, classname, cd, dr
+        from test.student
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="StudentMap">
+        select
+          id, name, gender, age, classname, cd, dr
+        from test.student
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="StudentMap">
+        select
+          id, name, gender, age, classname, cd, dr
+        from test.student
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="name != null and name != ''">
+                and name = #{name}
+            </if>
+            <if test="gender != null">
+                and gender = #{gender}
+            </if>
+            <if test="age != null">
+                and age = #{age}
+            </if>
+            <if test="classname != null and classname != ''">
+                and classname = #{classname}
+            </if>
+            <if test="cd != null">
+                and cd = #{cd}
+            </if>
+            <if test="dr != null">
+                and dr = #{dr}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into test.student(name, gender, age, classname, cd, dr)
+        values (#{name}, #{gender}, #{age}, #{classname}, #{cd}, #{dr})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update test.student
+        <set>
+            <if test="name != null and name != ''">
+                name = #{name},
+            </if>
+            <if test="gender != null">
+                gender = #{gender},
+            </if>
+            <if test="age != null">
+                age = #{age},
+            </if>
+            <if test="classname != null and classname != ''">
+                classname = #{classname},
+            </if>
+            <if test="cd != null">
+                cd = #{cd},
+            </if>
+            <if test="dr != null">
+                dr = #{dr},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from test.student where id = #{id}
+    </delete>
+
+</mapper>

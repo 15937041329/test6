@@ -20,7 +20,7 @@ import java.util.List;
  **/
 @RestController
 @Slf4j
-@Api(tags = "user接口")
+@Api(tags = "用户接口")
 @RequestMapping("/v1")
 public class UserController {
     @Resource

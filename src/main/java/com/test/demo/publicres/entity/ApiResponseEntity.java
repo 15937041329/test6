@@ -1,5 +1,8 @@
 package com.test.demo.publicres.entity;
  
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -9,12 +12,15 @@ import java.util.Map;
  * @date 2019-1-9
  *
  */
+@ApiModel(value = "Api请求响应实体",description = "ApiResponseEntity")
 public class ApiResponseEntity {
  
     public static final String ERRORS_KEY = "errors";
- 
+    @ApiModelProperty(value = "状态码")
     private final String resultCode;
+    @ApiModelProperty(value = "消息")
     private final String message;
+    @ApiModelProperty(value = "数据")
     private final Map<String, Object> data = new HashMap<>();
 
     public String getMessage() {
@@ -72,7 +78,7 @@ public class ApiResponseEntity {
         return new ApiResponseEntity("999", "用户无效请检查登录用户名和密码");
     }
     
-    public static ApiResponseEntity ExpiredError() {
+    public static ApiResponseEntity expiredError() {
         return new ApiResponseEntity("999", "token过期请重新登录获取");
     }
     

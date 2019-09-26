@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author: Ban shifeng
  * @create: 2019-09-03 11:24
  **/
-@Api(tags = "qrcode接口")
+@Api(tags = "生成二维码接口")
 @RestController
 @RequestMapping("/qrcode")
 public class QrCodeController {

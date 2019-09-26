@@ -17,7 +17,7 @@ import javax.annotation.Resource;
  * @author: Ban shifeng
  * @create: 2019-08-14 11:56
  **/
-@Api(tags = "mail接口")
+@Api(tags = "发送邮箱接口")
 @RestController
 @Slf4j
 public class MailController {

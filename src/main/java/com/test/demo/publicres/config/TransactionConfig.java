@@ -86,7 +86,7 @@ public class TransactionConfig {
         return new DefaultPointcutAdvisor(pointcut, txAdvice());
     }
     private Logger logger = LoggerFactory.getLogger(TransactionConfig.class);
-
+    private ThreadLocal<Long> startTime = new ThreadLocal<>();
     /**
      * @Description: 定义切入点
      * @Title: pointCut
@@ -110,6 +110,7 @@ public class TransactionConfig {
      */
     @Before("pointCut()")
     public void before(JoinPoint joinPoint) throws Throwable {
+        startTime.set(System.currentTimeMillis());
         // 接收到请求，记录请求内容
         logger.info("【注解：Before】------------------切面  before");
         ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
@@ -135,6 +136,8 @@ public class TransactionConfig {
     public void afterReturning(Object ret) throws Throwable {
         // 处理完请求，返回内容
         logger.info("【注解：AfterReturning】这个会在切面最后的最后打印，方法的返回值 : " + ret);
+        logger.info("【注解：AfterReturning】花费时间 : " + (System.currentTimeMillis() - startTime.get()) + "毫秒");
+        startTime.remove();
     }
 
     /**

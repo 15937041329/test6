@@ -1,6 +1,8 @@
 package com.test.demo.poi.controller;
 
 import com.alibaba.excel.EasyExcel;
+import com.test.demo.poi.tools.DemoDataListener;
+import com.test.demo.publicres.entity.ApiResponseEntity;
 import com.test.demo.user.entity.User;
 import com.test.demo.user.service.UserService;
 import io.swagger.annotations.Api;
@@ -21,7 +23,7 @@ import java.util.Random;
  * @author: Ban shifeng
  * @create: 2019-09-03 09:50
  **/
-@Api(tags = "Excel接口")
+@Api(tags = "导入导出Excel接口")
 @Slf4j
 @RestController
 @RequestMapping("/excel")
@@ -51,6 +53,19 @@ public class ExcelController {
             EasyExcel.write(response.getOutputStream(), User.class).sheet("用户数据").doWrite(userList);
         } catch (Exception e) {
             e.printStackTrace();
+        }
+    }
+    @ApiOperation("读取excel")
+    @GetMapping("readExcel")
+    public ApiResponseEntity readExcel(){
+        try {
+            String filePath = "C:\\Users\\Administrator\\Desktop\\03348551.xlsx";
+            DemoDataListener demoDataListener = new DemoDataListener();
+            EasyExcel.read(filePath,User.class,demoDataListener).sheet().doRead();
+            return ApiResponseEntity.ok();
+        }catch (Exception e){
+            log.error("读取excel失败："+e);
+            return ApiResponseEntity.error("读取excel失败："+e.getMessage());
         }
 
     }
